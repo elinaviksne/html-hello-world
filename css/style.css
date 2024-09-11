@@ -1,5 +1,9 @@
 body {
-    background-color: powderblue;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); 
+    background-size: cover;
+    height: 100vh;
+    margin: 0;  
   }
   h1 {
     color: blue;
@@ -8,4 +12,18 @@ body {
   p {
     color: red;
     font-family: courier;
+  }
+
+  a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 12px;
+  }
+  
+  a:hover, a:active {
+    background-color: red;
   }
